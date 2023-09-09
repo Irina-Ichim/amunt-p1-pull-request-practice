@@ -6,8 +6,8 @@
 <header>
     <img src={logo} alt="pet store icon">
     <nav>
-        <Link to="/">Home</Link>
-        <Link to="information">Información</Link>
+       <li><Link to="/">Home</Link></li>
+       <li><Link to="information">Información</Link></li>
     </nav>
 </header>
 
@@ -26,5 +26,11 @@
         display: flex;
         align-items: center;
         padding: 20px;
+        gap:30px;
     }
+    li{
+        list-style: none;
+    }
+   
+  
 </style>
